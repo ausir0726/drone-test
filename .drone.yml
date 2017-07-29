@@ -15,8 +15,8 @@ pipeline:
   scp:
     image: appleboy/drone-scp
     host: 139.59.123.108
-    username: drone
-    password: 123456789
+    username: root
+    password: 12345678
     target: ~/drone-demo/ausir
     source: ../a.tar.gz
     when:
