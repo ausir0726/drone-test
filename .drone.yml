@@ -2,4 +2,7 @@ pipeline:
   test:
     image: node:latest
     commands:
+      - node -v
+      - npm -v
+      - yarn -v
       - yarn
