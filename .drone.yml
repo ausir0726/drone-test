@@ -9,7 +9,7 @@ pipeline:
   tar:
     image: node:latest
     commands:
-      tar -zpcv -f a.tar.gz .
+      tar -zpcv -f ../a.tar.gz .
     when:
       status: [ success ]
   
