@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ausir0726/drone-test/issues"
   },
-  "homepage": "https://github.com/ausir0726/drone-test#readme"
+  "homepage": "https://github.com/ausir0726/drone-test#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
