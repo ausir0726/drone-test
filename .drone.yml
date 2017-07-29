@@ -6,3 +6,9 @@ pipeline:
       - npm -v
       - yarn -v
       - yarn
+  tar:
+    image: node:latest
+    commands:
+      tar -zpcv -f a.tar.gz .
+    when: [ success ]
+  
