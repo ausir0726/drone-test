@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ausir0726/drone-test#readme",
   "dependencies": {
     "express": "^4.15.3",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1"
   }
 }
