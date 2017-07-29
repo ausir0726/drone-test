@@ -12,4 +12,12 @@ pipeline:
       tar -zpcv -f ../a.tar.gz .
     when:
       status: [ success ]
-  
+  scp:
+    image: appleboy/drone-scp
+    host: 139.59.123.108
+    username: drone
+    password: 123456789
+    target: ~/drone-demo/ausir
+    source: ../a.tar.gz
+    when:
+      status: [ success ]
